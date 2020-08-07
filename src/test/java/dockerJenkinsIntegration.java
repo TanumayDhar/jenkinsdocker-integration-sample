@@ -3,7 +3,7 @@ public class dockerJenkinsIntegration {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.println("This is dockerJenkinsIntegration");
+System.out.println("This is dockerJenkinsIntegration - sample project ");
 	}
 
 }
