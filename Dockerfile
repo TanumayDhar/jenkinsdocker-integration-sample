@@ -1,3 +1,1 @@
-FROM scratch
-COPY hello /
-CMD ["/hello"]
+docker run mcr.microsoft.com/windows/servercore:ltsc2019
