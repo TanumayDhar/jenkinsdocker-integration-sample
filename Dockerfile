@@ -23,8 +23,6 @@
 #ADD target/docker-jenkins-integration-sample.jar docker-jenkins-integration-sample.jar
 #ENTRYPOINT ["java","-jar","docker-jenkins-integration-sample.jar"]
 
-FROM busybox
-ENV foo /bar
-WORKDIR ${foo}   # WORKDIR /bar
-ADD . $foo       # ADD . /bar
-COPY \$foo /quux # COPY $foo /quux
+FROM Ubuntu
+ENTRYPOINT ["sleep"]
+CMD ["5"]
